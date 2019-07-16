@@ -14,6 +14,8 @@ console.log(errorPurple.length);
 for ( let i = 0; i < errorPurple.length; i++ ) {
 	let solution = errorPurple[i];
 	solution.addEventListener('click', () => {
-		solution.style.color = inputStuff.value;
+		for ( let i = 0; i < errorPurple.length; i++ ) {
+			solution.style.color = inputStuff[0].value;
+		}
 	});
 }
