@@ -9,7 +9,7 @@ const buttonStuff = document.getElementsByClassName('test2');
 
 const errorPurple = document.getElementsByClassName('not-purple');
 
-console.log(errorPurple.length);	
+console.log(errorPurple[0]);	
 
 for ( let i = 0; i < errorPurple.length; i++ ) {
 	let solution = errorPurple[i];
